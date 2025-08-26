@@ -1,4 +1,4 @@
-# basic control flow
+# basic ternary operators
 
 """
 Ternary operators -> 
