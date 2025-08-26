@@ -77,3 +77,11 @@ checking_num_x = 22
 result_08 = 'FizzBuzz' if (checking_num_x % 3 == 0 and checking_num_x % 5 == 0) else (
     'Fizz' if checking_num_x % 3 == 0 else 'Buzz' if checking_num_x % 5 == 0 else str(checking_num_x))
 # print(result_08)
+
+########
+# Exercise 08 -> Grade System
+
+checking_mark = 35
+result_09 = 'A' if checking_mark >= 80 else (
+    'B' if checking_mark >= 60 else ('C' if checking_mark >= 40 else 'F'))
+# print(result_09)
