@@ -49,3 +49,41 @@ def checking_character(char):
 
 result_04 = checking_character('U')
 # print(result_04)
+
+
+#########
+
+# Exercise 05 -> Print numbers from 1 to 20 using a for loop.
+
+for n in range(1, 21):
+    print(n)
+
+#########
+
+# Exercise 06 -> Print even numbers from 1 to 50.
+
+for n in range(1, 51):
+    if n % 2 != 0:
+        print(n)
+
+#########
+
+# Exercise 07 -> Print the multiplication table of a number (e.g., 7).
+
+checking_table_num = 7
+for i in range(1, 11):
+    print(f'{checking_table_num} x {i} = {checking_table_num * i}')
+
+#########
+
+# Exercise 08 -> Find the sum of first N natural numbers.
+
+
+def sum_natural_num(n):
+    total = 0
+    for i in range(1, n+1):
+        total += i
+    return total
+
+
+print(sum_natural_num(10))
