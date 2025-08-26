@@ -31,3 +31,14 @@ def checkingOddEvenList(list):
 
 result_02 = checkingOddEvenList(cheking_list)
 # print(result_02)
+
+########
+# Exercise 02 -> Positive, Negative, or Zero
+
+cheking_classification = -3
+result_03 = 'Positive' if cheking_classification > 0 else (
+    'Zero' if cheking_classification == 0 else 'Negative')
+# print(result_03)
+
+########
+# Exercise 03 -> Adult or Minor
