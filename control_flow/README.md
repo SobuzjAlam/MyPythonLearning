@@ -1,4 +1,4 @@
-# My Python Learning
+# Python Control Flow: ## Comparison, Ternary, Logical Operators, Conditional Statements, Loops
 
 My process for learning Python
 
