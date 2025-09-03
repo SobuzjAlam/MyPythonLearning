@@ -17,7 +17,7 @@ def generate_password():
                 continue
 
         except ValueError:
-            print('Enter valid digits')
+            print('Enter valid digits!')
         else:
             break
     while True:
