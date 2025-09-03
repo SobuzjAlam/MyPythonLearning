@@ -4,3 +4,4 @@ Projects:
 
     👾 random-question-answer
     👾 random-password-generator
+    👾 personal-finance-tracker
