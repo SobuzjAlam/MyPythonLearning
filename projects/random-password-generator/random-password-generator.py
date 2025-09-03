@@ -32,7 +32,7 @@ def generate_password():
             case 'no':
                 break
             case _:
-                print('No match')
+                print('No match: yes/no')
     while True:
         include_special = input(
             'Include special characters? (yes/no): ').strip().lower()
@@ -57,7 +57,7 @@ def generate_password():
             case 'no':
                 break
             case _:
-                print('No match')
+                print('No match: yes/no')
 
     password_len = expected_pass_length - len(random_pass_chr)
     for _ in range(password_len):
